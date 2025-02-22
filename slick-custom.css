@@ -1,0 +1,58 @@
+.slide-item {
+  opacity: 0;
+  transition: 3s;
+}
+
+.slick-initialized {
+  opacity: 1;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.slick-dots li button::before {
+  font-size: 1rem;
+  color: #403f3a;
+}
+
+@media screen and (min-width: 900px) {
+  .slick-dots li button::before {
+    font-size: 2rem;
+  }
+}
+.slick-dots li.slick-active button::before {
+  color: #403f3a;
+}
+
+.slick-dotted.slick-slider.slide-item {
+  margin-bottom: 0;
+}
+
+.slide-item img {
+  margin-bottom: 0;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-family: "FontAwesome";
+  font-size: 2rem;
+  text-shadow: 1px 2px 2px #777;
+  color: #403f3a;
+}
+
+.slick-prev {
+  left: 1rem;
+  z-index: 1;
+}
+.slick-prev::before {
+  content: "\f053";
+}
+
+.slick-next {
+  right: 1rem;
+}
+.slick-next::before {
+  content: "\f054";
+}/*# sourceMappingURL=slick-custom.css.map */
