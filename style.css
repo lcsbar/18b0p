@@ -102,7 +102,7 @@ i {
     margin-left: 5%;
     margin-top: 95px;
     width: 10%;
-    background-image: url(../images/cat1.png);
+    background-image: url(cat1.png);
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 120;
@@ -154,7 +154,7 @@ i {
     margin-left: 5%;
     margin-top: 95px;
     width: 10%;
-    background-image: url(../images/cat1.png);
+    background-image: url(cat1.png);
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 120;
@@ -188,7 +188,7 @@ i {
 }
 @media (min-width: 768px) {
   .main-v {
-    background-image: url(../images/mainv_bg.png);
+    background-image: url(mainv_bg.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom left;
@@ -220,7 +220,7 @@ i {
     place-self: center center;
     width: 50%;
     height: 350px;
-    background-image: url(../images/main_cat1.png);
+    background-image: url(main_cat1.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -232,7 +232,7 @@ i {
     width: 50%;
     height: 350px;
     place-self: end end;
-    background-image: url(../images/main_cat2.png);
+    background-image: url(main_cat2.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -313,7 +313,7 @@ main {
   width: 100%;
 }
 main .prof {
-  background-image: url(../images/cat3.png);
+  background-image: url(cat3.png);
   background-repeat: no-repeat;
   background-position-y: 100%;
   background-position-x: 50%;
@@ -339,7 +339,7 @@ main .prof {
     aspect-ratio: 1/1;
     height: auto;
     max-width: 80%;
-    background-image: url(../images/prof-image.png);
+    background-image: url(prof-image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -375,7 +375,7 @@ main .prof {
     height: auto;
     margin: 0 auto;
     max-width: 80%;
-    background-image: url(../images/prof-image.png);
+    background-image: url(prof-image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -565,7 +565,7 @@ main .prof {
 }
 main .contact {
   padding-bottom: 170px;
-  background-image: url(../images/cat2.png);
+  background-image: url(cat2.png);
   background-repeat: no-repeat;
   background-position-y: 103%;
   background-position-x: 98%;
